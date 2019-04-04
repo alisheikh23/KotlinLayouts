@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"
+            app:columnCount="3" app:columnOrderPreserved="false" app:rowCount="2">
+
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture1"
+                android:id="@+id/imageView"
+                app:layout_column="0"
+                app:layout_row="0"
+        />
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture2"
+                android:id="@+id/imageView1"
+                app:layout_column="1"
+                app:layout_row="0"
+        />
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture3"
+                android:id="@+id/imageView2"
+                app:layout_column="2"
+                app:layout_row="0"/>
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture4"
+                android:id="@+id/imageView3"
+                app:layout_column="0"
+                app:layout_row="1"/>
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture5"
+                android:id="@+id/imageView4"
+                app:layout_column="1"
+                app:layout_row="1"/>
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/picture6"
+                android:id="@+id/imageView5"
+                app:layout_column="2"
+                app:layout_row="1"/>
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp" app:srcCompat="@drawable/picture2" app:layout_row="0"
+                app:layout_column="3" android:id="@+id/imageView6"/>
+
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
